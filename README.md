@@ -1,27 +1,70 @@
-# Angular14authexample
+# 🧠 SurveyPlay
+**Gamified Psychological Survey Platform**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.1.
+SurveyPlay is a **web-based psychological assessment system** developed using **Angular**, **Node.js**, and **MongoDB**, designed to collect user data through **interactive gamified experiences**.  
+It transforms traditional surveys into engaging experiences using animations, colors, sounds, and storytelling to improve **user engagement, emotional connection, and response quality**.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🎯 Overview
+The project was developed as part of the **Game Development Workshop** at **Amirkabir University of Technology (Tehran Polytechnic)**.  
+It combines **psychological testing** and **gamification** to create a more enjoyable and reliable data collection process for mental health and behavioral studies.
 
-## Code scaffolding
+Key features include:
+- Dynamic **user interface** with responsive animations and sound feedback.  
+- Integration of **DISC** and **MBTI** personality tests.  
+- Data collection and analysis using **MongoDB** and **Flask/Angular** front-end logic.  
+- Secure user registration, login, and progress tracking system.  
+- Adaptive content recommendation based on personality test results.  
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 🧩 Features
+- 🎮 **Gamification Elements**: Animations, avatars, color feedback, and reward systems.  
+- 🧠 **Psychological Assessments**: DISC and MBTI integrated into the workflow.  
+- 📊 **Data Management**: MongoDB-based user database with secure authentication.  
+- 🎨 **Engaging UI**: Animated scenes, sound effects, and interactive design built with Angular.  
+- 🔒 **Authentication System**: Built with Node.js and JWT tokens for secure access.  
+- 💬 **Feedback Mechanisms**: Real-time progress visualization and motivational prompts.  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 🛠️ Tech Stack
+| Layer | Technology |
+|-------|-------------|
+| **Front-End** | Angular, TypeScript, HTML, CSS, Bootstrap |
+| **Back-End** | Node.js, Express.js |
+| **Database** | MongoDB |
+| **Animation & Sound** | CSS3, Howler.js, Angular Animations |
+| **Authentication** | JWT, bcrypt |
+| **Version Control** | Git, GitHub |
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## ⚙️ System Architecture
+The system follows an **MVC-inspired structure**:  
+- Angular manages **front-end interactivity** (components, routing, animation).  
+- Node.js handles **API logic** and **authentication**.  
+- MongoDB stores **user profiles, responses, and test data**.  
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## 🚀 Installation
+```bash
+# Clone repository
+git clone https://github.com/arianmotti/SurveyPlay.git
+cd SurveyPlay
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+```
+
+---
+
+## 📄 License
+This project was developed as part of a bachelor thesis at  
+**Amirkabir University of Technology, Department of Computer Engineering.**  
+© Mohammad Mottaghi, 2024
